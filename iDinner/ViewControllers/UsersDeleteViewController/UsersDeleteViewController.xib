@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UsersDeleteViewController" customModule="iDinner" customModuleProvider="target">
+            <connections>
+                <outlet property="btnDelete" destination="8Sx-0c-hB7" id="8pR-6g-jLg"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JnO-E5-bvT">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="660"/>
+                </pickerView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Sx-0c-hB7">
+                    <rect key="frame" x="128" y="726" width="159" height="58"/>
+                    <color key="backgroundColor" red="0.48323957449999999" green="1" blue="0.66654548219999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="58" id="I5W-q6-X6w"/>
+                        <constraint firstAttribute="width" constant="159" id="gvH-5E-RvO"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="Borrar">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.15039080381393433" green="0.47376435995101929" blue="0.96289819478988647" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="JnO-E5-bvT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="1TQ-Eg-eE3"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="8Sx-0c-hB7" secondAttribute="trailing" constant="127" id="G3y-IG-ijE"/>
+                <constraint firstItem="8Sx-0c-hB7" firstAttribute="top" secondItem="JnO-E5-bvT" secondAttribute="bottom" constant="66" id="H6m-Iy-5xU"/>
+                <constraint firstItem="8Sx-0c-hB7" firstAttribute="top" secondItem="JnO-E5-bvT" secondAttribute="bottom" constant="66" id="JD1-zx-dDO"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="8Sx-0c-hB7" secondAttribute="bottom" constant="78" id="Ygt-Xx-bS6"/>
+                <constraint firstItem="8Sx-0c-hB7" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="128" id="ZFE-3C-yao"/>
+                <constraint firstItem="JnO-E5-bvT" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="tMJ-ys-i3a"/>
+                <constraint firstItem="JnO-E5-bvT" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="uQW-Oq-IDH"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="52.173913043478265" y="50.223214285714285"/>
+        </view>
+    </objects>
+</document>
