@@ -58,12 +58,7 @@ UITableViewDelegate,UITableViewDataSource{
         
         
     }
-    /* func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-     true
-     }
-     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-     <#code#>
-     }*/
+   
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell:MainTableViewCell = (tableView.dequeueReusableCell(withIdentifier: "MainTableViewCell", for: indexPath) as? MainTableViewCell)!
         switch indexPath.row {
@@ -76,22 +71,12 @@ UITableViewDelegate,UITableViewDataSource{
         default:
             return cell
         }
-     
-        /* cell.lbl_tittle.text =  arr_recipes[indexPath.row].name
-         cell.recipe_image.sd_setImage(with: URL(string: arr_recipes[indexPath.row].url_image), completed: nil)*/
         
         
         return cell
     }
-    /*
-    // MARK: - Navigation
+  
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
 

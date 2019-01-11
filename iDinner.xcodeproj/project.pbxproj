@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4771F1D5347EABAE244D6D2C /* Pods_iDinnerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDFBF0186CD6CC2D77D8AA2 /* Pods_iDinnerUITests.framework */; };
+		5DE627D721E904290075120E /* GroupEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE627D621E904290075120E /* GroupEntity.swift */; };
+		5DE627D921E904390075120E /* MenuEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE627D821E904390075120E /* MenuEntity.swift */; };
+		5DE627DB21E9044B0075120E /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE627DA21E9044B0075120E /* UserEntity.swift */; };
+		5DE627E121E912590075120E /* ShowListsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE627DF21E912590075120E /* ShowListsTableViewCell.swift */; };
+		5DE627E221E912590075120E /* ShowListsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DE627E021E912590075120E /* ShowListsTableViewCell.xib */; };
+		827306B45BB3BC03D1F10C5E /* Pods_iDinnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1F5CEE049D8ECC3F840B39 /* Pods_iDinnerTests.framework */; };
 		841EF64621DBBFDC0072C511 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EF64521DBBFDC0072C511 /* AppDelegate.swift */; };
 		841EF64D21DBBFDE0072C511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841EF64C21DBBFDE0072C511 /* Assets.xcassets */; };
 		841EF65021DBBFDE0072C511 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841EF64E21DBBFDE0072C511 /* LaunchScreen.storyboard */; };
@@ -43,6 +50,7 @@
 		84C0D66221E2764400474B42 /* UsersDeleteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C0D66021E2764400474B42 /* UsersDeleteViewController.xib */; };
 		84C0D66521E2769A00474B42 /* UsersShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C0D66321E2769A00474B42 /* UsersShowViewController.swift */; };
 		84C0D66621E2769A00474B42 /* UsersShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C0D66421E2769A00474B42 /* UsersShowViewController.xib */; };
+		D35E8891805ED9082533FFBF /* Pods_iDinner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB382B271C4562D884D4DA2 /* Pods_iDinner.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +71,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19FC9805354208EB6BA9E4E4 /* Pods-iDinnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDinnerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iDinnerTests/Pods-iDinnerTests.release.xcconfig"; sourceTree = "<group>"; };
+		546EA43354AB103BC613FEBD /* Pods-iDinnerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDinnerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iDinnerUITests/Pods-iDinnerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5DE627D621E904290075120E /* GroupEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupEntity.swift; sourceTree = "<group>"; };
+		5DE627D821E904390075120E /* MenuEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuEntity.swift; sourceTree = "<group>"; };
+		5DE627DA21E9044B0075120E /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
+		5DE627DF21E912590075120E /* ShowListsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowListsTableViewCell.swift; sourceTree = "<group>"; };
+		5DE627E021E912590075120E /* ShowListsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowListsTableViewCell.xib; sourceTree = "<group>"; };
+		7A9FF1DA407CB541072C2A65 /* Pods-iDinner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDinner.release.xcconfig"; path = "Pods/Target Support Files/Pods-iDinner/Pods-iDinner.release.xcconfig"; sourceTree = "<group>"; };
+		7CB54A8299F18415057F3AF5 /* Pods-iDinnerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDinnerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iDinnerUITests/Pods-iDinnerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		841EF64221DBBFDC0072C511 /* iDinner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDinner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		841EF64521DBBFDC0072C511 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		841EF64C21DBBFDE0072C511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -105,6 +122,11 @@
 		84C0D66021E2764400474B42 /* UsersDeleteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsersDeleteViewController.xib; sourceTree = "<group>"; };
 		84C0D66321E2769A00474B42 /* UsersShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersShowViewController.swift; sourceTree = "<group>"; };
 		84C0D66421E2769A00474B42 /* UsersShowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsersShowViewController.xib; sourceTree = "<group>"; };
+		AB6F0866CD4D62224D29253C /* Pods-iDinnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDinnerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iDinnerTests/Pods-iDinnerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C71CCAB05F15C1C6F2E0FEE0 /* Pods-iDinner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDinner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iDinner/Pods-iDinner.debug.xcconfig"; sourceTree = "<group>"; };
+		DDDFBF0186CD6CC2D77D8AA2 /* Pods_iDinnerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iDinnerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB382B271C4562D884D4DA2 /* Pods_iDinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iDinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1F5CEE049D8ECC3F840B39 /* Pods_iDinnerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iDinnerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D35E8891805ED9082533FFBF /* Pods_iDinner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				827306B45BB3BC03D1F10C5E /* Pods_iDinnerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,12 +150,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4771F1D5347EABAE244D6D2C /* Pods_iDinnerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DE627D521E903E50075120E /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				5DE627D621E904290075120E /* GroupEntity.swift */,
+				5DE627D821E904390075120E /* MenuEntity.swift */,
+				5DE627DA21E9044B0075120E /* UserEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		5DE627DC21E911740075120E /* MainTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				841EF68121DBD4290072C511 /* MainTableViewCell.swift */,
+				841EF68221DBD4290072C511 /* MainTableViewCell.xib */,
+			);
+			path = MainTableViewCell;
+			sourceTree = "<group>";
+		};
+		5DE627DE21E911B90075120E /* ShowListsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				5DE627DF21E912590075120E /* ShowListsTableViewCell.swift */,
+				5DE627E021E912590075120E /* ShowListsTableViewCell.xib */,
+			);
+			path = ShowListsTableViewCell;
+			sourceTree = "<group>";
+		};
+		68277AF31257B8964E7B041B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDB382B271C4562D884D4DA2 /* Pods_iDinner.framework */,
+				EE1F5CEE049D8ECC3F840B39 /* Pods_iDinnerTests.framework */,
+				DDDFBF0186CD6CC2D77D8AA2 /* Pods_iDinnerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70B9C535AB015F6AD264E8F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C71CCAB05F15C1C6F2E0FEE0 /* Pods-iDinner.debug.xcconfig */,
+				7A9FF1DA407CB541072C2A65 /* Pods-iDinner.release.xcconfig */,
+				AB6F0866CD4D62224D29253C /* Pods-iDinnerTests.debug.xcconfig */,
+				19FC9805354208EB6BA9E4E4 /* Pods-iDinnerTests.release.xcconfig */,
+				7CB54A8299F18415057F3AF5 /* Pods-iDinnerUITests.debug.xcconfig */,
+				546EA43354AB103BC613FEBD /* Pods-iDinnerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		841EF63921DBBFDC0072C511 = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +215,8 @@
 				841EF65921DBBFDE0072C511 /* iDinnerTests */,
 				841EF66421DBBFDE0072C511 /* iDinnerUITests */,
 				841EF64321DBBFDC0072C511 /* Products */,
+				70B9C535AB015F6AD264E8F0 /* Pods */,
+				68277AF31257B8964E7B041B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,6 +233,7 @@
 		841EF64421DBBFDC0072C511 /* iDinner */ = {
 			isa = PBXGroup;
 			children = (
+				5DE627D521E903E50075120E /* Entities */,
 				841EF68021DBD2680072C511 /* Cells */,
 				841EF67E21DBD23A0072C511 /* ViewControllers */,
 				841EF67721DBD06C0072C511 /* Model */,
@@ -226,8 +305,8 @@
 		841EF68021DBD2680072C511 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				841EF68121DBD4290072C511 /* MainTableViewCell.swift */,
-				841EF68221DBD4290072C511 /* MainTableViewCell.xib */,
+				5DE627DE21E911B90075120E /* ShowListsTableViewCell */,
+				5DE627DC21E911740075120E /* MainTableViewCell */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -347,9 +426,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 841EF66A21DBBFDE0072C511 /* Build configuration list for PBXNativeTarget "iDinner" */;
 			buildPhases = (
+				4B1F7EBE35BA67B164A23497 /* [CP] Check Pods Manifest.lock */,
 				841EF63E21DBBFDC0072C511 /* Sources */,
 				841EF63F21DBBFDC0072C511 /* Frameworks */,
 				841EF64021DBBFDC0072C511 /* Resources */,
+				BEB8CD47B41209EC86C5BFCF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -364,6 +445,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 841EF66D21DBBFDE0072C511 /* Build configuration list for PBXNativeTarget "iDinnerTests" */;
 			buildPhases = (
+				41D7857ED0C6E908069502F6 /* [CP] Check Pods Manifest.lock */,
 				841EF65221DBBFDE0072C511 /* Sources */,
 				841EF65321DBBFDE0072C511 /* Frameworks */,
 				841EF65421DBBFDE0072C511 /* Resources */,
@@ -382,6 +464,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 841EF67021DBBFDE0072C511 /* Build configuration list for PBXNativeTarget "iDinnerUITests" */;
 			buildPhases = (
+				2920A4D0B2010A432AB1F4AB /* [CP] Check Pods Manifest.lock */,
 				841EF65D21DBBFDE0072C511 /* Sources */,
 				841EF65E21DBBFDE0072C511 /* Frameworks */,
 				841EF65F21DBBFDE0072C511 /* Resources */,
@@ -452,6 +535,7 @@
 				841EF68821DBD9C60072C511 /* MenuViewController.xib in Resources */,
 				84C0D65221E275FB00474B42 /* MenuAddViewController.xib in Resources */,
 				84C0D64621E275A900474B42 /* GroupsAddViewController.xib in Resources */,
+				5DE627E221E912590075120E /* ShowListsTableViewCell.xib in Resources */,
 				841EF69321DBDA700072C511 /* GroupsViewController.xib in Resources */,
 				84C0D65621E2760D00474B42 /* MenuDeleteViewController.xib in Resources */,
 				84C0D66221E2764400474B42 /* UsersDeleteViewController.xib in Resources */,
@@ -479,6 +563,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2920A4D0B2010A432AB1F4AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iDinnerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41D7857ED0C6E908069502F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iDinnerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B1F7EBE35BA67B164A23497 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iDinner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEB8CD47B41209EC86C5BFCF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iDinner/Pods-iDinner-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iDinner/Pods-iDinner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		841EF63E21DBBFDC0072C511 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -488,6 +665,7 @@
 				84C0D65D21E2762B00474B42 /* UsersAddViewController.swift in Sources */,
 				84C0D64D21E275D400474B42 /* GroupsShowViewController.swift in Sources */,
 				841EF64621DBBFDC0072C511 /* AppDelegate.swift in Sources */,
+				5DE627DB21E9044B0075120E /* UserEntity.swift in Sources */,
 				841EF67B21DBD0AD0072C511 /* Menu.swift in Sources */,
 				841EF68721DBD9C60072C511 /* MenuViewController.swift in Sources */,
 				841EF67D21DBD0EA0072C511 /* User.swift in Sources */,
@@ -496,10 +674,13 @@
 				841EF68E21DBDA5C0072C511 /* UsersViewController.swift in Sources */,
 				84C0D65921E2761C00474B42 /* MenuShowViewController.swift in Sources */,
 				84C0D66121E2764400474B42 /* UsersDeleteViewController.swift in Sources */,
+				5DE627D721E904290075120E /* GroupEntity.swift in Sources */,
+				5DE627E121E912590075120E /* ShowListsTableViewCell.swift in Sources */,
 				84C0D64521E275A900474B42 /* GroupsAddViewController.swift in Sources */,
 				841EF68321DBD4290072C511 /* MainTableViewCell.swift in Sources */,
 				841EF67521DBC0160072C511 /* MainViewController.swift in Sources */,
 				84C0D64921E275BE00474B42 /* GroupsDeleteViewController.swift in Sources */,
+				5DE627D921E904390075120E /* MenuEntity.swift in Sources */,
 				841EF69221DBDA700072C511 /* GroupsViewController.swift in Sources */,
 				84C0D65121E275FB00474B42 /* MenuAddViewController.swift in Sources */,
 			);
@@ -666,6 +847,7 @@
 		};
 		841EF66B21DBBFDE0072C511 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C71CCAB05F15C1C6F2E0FEE0 /* Pods-iDinner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -684,6 +866,7 @@
 		};
 		841EF66C21DBBFDE0072C511 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A9FF1DA407CB541072C2A65 /* Pods-iDinner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -702,6 +885,7 @@
 		};
 		841EF66E21DBBFDE0072C511 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB6F0866CD4D62224D29253C /* Pods-iDinnerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -723,6 +907,7 @@
 		};
 		841EF66F21DBBFDE0072C511 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19FC9805354208EB6BA9E4E4 /* Pods-iDinnerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -744,6 +929,7 @@
 		};
 		841EF67121DBBFDE0072C511 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CB54A8299F18415057F3AF5 /* Pods-iDinnerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -764,6 +950,7 @@
 		};
 		841EF67221DBBFDE0072C511 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 546EA43354AB103BC613FEBD /* Pods-iDinnerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

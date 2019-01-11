@@ -10,5 +10,6 @@ import Foundation
 class User{
     var id: String!
     var name: String!
-    var menus: [Menu]!
+    var platos: [String]!
+    var isPay = false
 }
