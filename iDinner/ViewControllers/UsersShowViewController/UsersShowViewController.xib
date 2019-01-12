@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UsersShowViewController" customModule="iDinner" customModuleProvider="target">
             <connections>
+                <outlet property="sw_isPay" destination="Soi-cA-Ui3" id="y17-Sn-irh"/>
                 <outlet property="tableViewList" destination="ihb-wH-kK8" id="4x9-t0-oDx"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -20,28 +21,39 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="ihb-wH-kK8">
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="ihb-wH-kK8">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="765"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     <connections>
                         <outlet property="dataSource" destination="-1" id="Z1C-T9-20N"/>
                         <outlet property="delegate" destination="-1" id="T9A-6h-weB"/>
                     </connections>
                 </tableView>
-                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Soi-cA-Ui3">
-                    <rect key="frame" x="35" y="794" width="49" height="31"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Soi-cA-Ui3">
+                    <rect key="frame" x="35" y="794" width="51" height="31"/>
                 </switch>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mostrar solo los que han pagado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yCL-Cv-hVR">
-                    <rect key="frame" x="113" y="794" width="250" height="31"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mostrar solo los que han pagado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yCL-Cv-hVR">
+                    <rect key="frame" x="115" y="794" width="250" height="31"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="yCL-Cv-hVR" secondAttribute="bottom" constant="37" id="5IP-5K-EaT"/>
+                <constraint firstItem="ihb-wH-kK8" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="6aH-IX-fcS"/>
+                <constraint firstItem="yCL-Cv-hVR" firstAttribute="top" secondItem="ihb-wH-kK8" secondAttribute="bottom" constant="29" id="6o9-l7-JMa"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="yCL-Cv-hVR" secondAttribute="trailing" constant="49" id="Jch-6j-ii5"/>
+                <constraint firstItem="Soi-cA-Ui3" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="35" id="KqI-zx-PkZ"/>
+                <constraint firstItem="yCL-Cv-hVR" firstAttribute="leading" secondItem="Soi-cA-Ui3" secondAttribute="trailing" constant="31" id="Rm1-0D-lYv"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Soi-cA-Ui3" secondAttribute="bottom" constant="37" id="bUL-Cw-YjI"/>
+                <constraint firstItem="ihb-wH-kK8" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="m79-0n-okI"/>
+                <constraint firstItem="Soi-cA-Ui3" firstAttribute="top" secondItem="ihb-wH-kK8" secondAttribute="bottom" constant="29" id="nvq-he-bvT"/>
+                <constraint firstItem="yCL-Cv-hVR" firstAttribute="leading" secondItem="Soi-cA-Ui3" secondAttribute="trailing" constant="31" id="tE0-72-zav"/>
+                <constraint firstItem="Soi-cA-Ui3" firstAttribute="top" secondItem="ihb-wH-kK8" secondAttribute="bottom" constant="29" id="zL9-Fg-tPe"/>
+                <constraint firstItem="ihb-wH-kK8" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="zSy-sG-pJF"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="137.68115942028987" y="153.34821428571428"/>
         </view>

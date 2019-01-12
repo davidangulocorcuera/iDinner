@@ -15,7 +15,6 @@ class UsersAddViewController: UIViewController , UITextFieldDelegate  {
     @IBOutlet weak var tf_name: UITextField!
     @IBOutlet weak var sw_isPay: UISwitch!
 
-
     internal var user: User!
     weak var delegate: AddUserViewControllerDelegate!
 
@@ -35,11 +34,9 @@ class UsersAddViewController: UIViewController , UITextFieldDelegate  {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Añadir participante"
-        btnAdd.layer.cornerRadius = 15.0
-        btnAdd.layer.borderWidth = 2
-        btnAdd.layer.borderColor = UIColor(red:222/255, green:225/255, blue:227/255, alpha: 1).cgColor
+        btnAdd.layer.cornerRadius = 25.0
         setupAddTargetIsNotEmptyTextFields()
-        
+
         // Do any additional setup after loading the view.
         
     }
@@ -72,6 +69,8 @@ class UsersAddViewController: UIViewController , UITextFieldDelegate  {
         self.user.date = Date()
         delegate.addUserViewController(self, didEditUser: user)
     }
+    
+  
 }
 extension UsersViewController: AddUserViewControllerDelegate{
     func addUserViewController(_ vc: UsersAddViewController, didEditUser user: User) {
@@ -81,6 +80,9 @@ extension UsersViewController: AddUserViewControllerDelegate{
             dismiss(animated: true, completion: nil)
         } else {
             // popup
+            let alert = UIAlertController(title: "Error", message: "This id already exits", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+            self.present(alert, animated: true)
             print("error")
         }
     }
