@@ -13,7 +13,7 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         registercells()
-
+        
         // Do any additional setup after loading the view.
     }
     private func registercells(){
@@ -35,7 +35,7 @@ UITableViewDelegate,UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return 3
+        return 1
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         
@@ -43,36 +43,14 @@ UITableViewDelegate,UITableViewDataSource{
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        switch indexPath.row {
-        case 0:
-            navigationController?.pushViewController(MenuViewController(), animated: true)
-        case 1:
+       
             navigationController?.pushViewController(UsersViewController(), animated: true)
-        case 2:
-            navigationController?.pushViewController(GroupsViewController(), animated: true)
-        default:
-            return 
-        }
-         
-        
-        
         
     }
    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell:MainTableViewCell = (tableView.dequeueReusableCell(withIdentifier: "MainTableViewCell", for: indexPath) as? MainTableViewCell)!
-        switch indexPath.row {
-        case 0:
-             cell.lbl_name.text = "Menús"
-        case 1:
-            cell.lbl_name.text = "Participantes"
-        case 2:
-            cell.lbl_name.text = "Grupos"
-        default:
-            return cell
-        }
-        
-        
+        cell.lbl_name.text = "Participantes"
         return cell
     }
   

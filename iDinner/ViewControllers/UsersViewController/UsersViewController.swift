@@ -35,7 +35,7 @@ UITableViewDelegate,UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return 3
+        return 2
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         
@@ -47,9 +47,9 @@ UITableViewDelegate,UITableViewDataSource{
         case 0:
             navigationController?.pushViewController(UsersShowViewController(), animated: true)
         case 1:
-            navigationController?.pushViewController(UsersAddViewController(), animated: true)
-        case 2:
-            navigationController?.pushViewController(UsersDeleteViewController(), animated: true)
+            let addVC = UsersAddViewController(user: nil)
+            addVC.delegate = self
+            navigationController?.pushViewController(addVC, animated: true)
         default:
             return
         }
@@ -71,8 +71,6 @@ UITableViewDelegate,UITableViewDataSource{
             cell.lbl_name.text = "Consultar"
         case 1:
             cell.lbl_name.text = "Añadir"
-        case 2:
-            cell.lbl_name.text = "Borrar"
         default:
             return cell
         }

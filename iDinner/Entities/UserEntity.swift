@@ -12,7 +12,6 @@ import RealmSwift
 class UserEntity: Object {
     @objc dynamic var id = ""
     @objc dynamic var name = ""
-    @objc dynamic var platos: [String]!
     @objc dynamic var isPay = false
     
     override static func primaryKey() -> String {
@@ -24,7 +23,6 @@ class UserEntity: Object {
         
         self.id = user.id
         self.name = user.name
-        self.platos = user.platos
         self.isPay = user.isPay
         
     }
@@ -33,7 +31,6 @@ class UserEntity: Object {
         
         userModel.id = self.id
         userModel.name = self.name
-        userModel.platos = self.platos
         userModel.isPay = self.isPay
         
         return userModel

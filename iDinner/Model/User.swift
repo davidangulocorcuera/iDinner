@@ -10,6 +10,7 @@ import Foundation
 class User{
     var id: String!
     var name: String!
-    var platos: [String]!
     var isPay = false
+    
+    
 }

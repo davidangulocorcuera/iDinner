@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		4771F1D5347EABAE244D6D2C /* Pods_iDinnerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDFBF0186CD6CC2D77D8AA2 /* Pods_iDinnerUITests.framework */; };
+		5D48D87921E9530300BBE88D /* UsersUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D48D87721E9530300BBE88D /* UsersUpdateViewController.swift */; };
+		5D48D87A21E9530300BBE88D /* UsersUpdateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D48D87821E9530300BBE88D /* UsersUpdateViewController.xib */; };
 		5DE627D721E904290075120E /* GroupEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE627D621E904290075120E /* GroupEntity.swift */; };
 		5DE627D921E904390075120E /* MenuEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE627D821E904390075120E /* MenuEntity.swift */; };
 		5DE627DB21E9044B0075120E /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE627DA21E9044B0075120E /* UserEntity.swift */; };
 		5DE627E121E912590075120E /* ShowListsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE627DF21E912590075120E /* ShowListsTableViewCell.swift */; };
 		5DE627E221E912590075120E /* ShowListsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DE627E021E912590075120E /* ShowListsTableViewCell.xib */; };
+		5DE627E521E91F0E0075120E /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE627E421E91F0E0075120E /* Repository.swift */; };
+		5DE627E721E91F410075120E /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE627E621E91F410075120E /* UserRepository.swift */; };
+		5DE627E921E92FFA0075120E /* MenuRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE627E821E92FFA0075120E /* MenuRepository.swift */; };
+		5DE627EB21E930130075120E /* GroupRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE627EA21E930130075120E /* GroupRepository.swift */; };
 		827306B45BB3BC03D1F10C5E /* Pods_iDinnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1F5CEE049D8ECC3F840B39 /* Pods_iDinnerTests.framework */; };
 		841EF64621DBBFDC0072C511 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EF64521DBBFDC0072C511 /* AppDelegate.swift */; };
 		841EF64D21DBBFDE0072C511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841EF64C21DBBFDE0072C511 /* Assets.xcassets */; };
@@ -26,28 +32,10 @@
 		841EF67D21DBD0EA0072C511 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EF67C21DBD0EA0072C511 /* User.swift */; };
 		841EF68321DBD4290072C511 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EF68121DBD4290072C511 /* MainTableViewCell.swift */; };
 		841EF68421DBD4290072C511 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841EF68221DBD4290072C511 /* MainTableViewCell.xib */; };
-		841EF68721DBD9C60072C511 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EF68521DBD9C60072C511 /* MenuViewController.swift */; };
-		841EF68821DBD9C60072C511 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841EF68621DBD9C60072C511 /* MenuViewController.xib */; };
 		841EF68E21DBDA5C0072C511 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EF68C21DBDA5C0072C511 /* UsersViewController.swift */; };
 		841EF68F21DBDA5C0072C511 /* UsersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841EF68D21DBDA5C0072C511 /* UsersViewController.xib */; };
-		841EF69221DBDA700072C511 /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EF69021DBDA700072C511 /* GroupsViewController.swift */; };
-		841EF69321DBDA700072C511 /* GroupsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841EF69121DBDA700072C511 /* GroupsViewController.xib */; };
-		84C0D64521E275A900474B42 /* GroupsAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C0D64321E275A900474B42 /* GroupsAddViewController.swift */; };
-		84C0D64621E275A900474B42 /* GroupsAddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C0D64421E275A900474B42 /* GroupsAddViewController.xib */; };
-		84C0D64921E275BE00474B42 /* GroupsDeleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C0D64721E275BE00474B42 /* GroupsDeleteViewController.swift */; };
-		84C0D64A21E275BE00474B42 /* GroupsDeleteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C0D64821E275BE00474B42 /* GroupsDeleteViewController.xib */; };
-		84C0D64D21E275D400474B42 /* GroupsShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C0D64B21E275D400474B42 /* GroupsShowViewController.swift */; };
-		84C0D64E21E275D400474B42 /* GroupsShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C0D64C21E275D400474B42 /* GroupsShowViewController.xib */; };
-		84C0D65121E275FB00474B42 /* MenuAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C0D64F21E275FB00474B42 /* MenuAddViewController.swift */; };
-		84C0D65221E275FB00474B42 /* MenuAddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C0D65021E275FB00474B42 /* MenuAddViewController.xib */; };
-		84C0D65521E2760D00474B42 /* MenuDeleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C0D65321E2760D00474B42 /* MenuDeleteViewController.swift */; };
-		84C0D65621E2760D00474B42 /* MenuDeleteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C0D65421E2760D00474B42 /* MenuDeleteViewController.xib */; };
-		84C0D65921E2761C00474B42 /* MenuShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C0D65721E2761C00474B42 /* MenuShowViewController.swift */; };
-		84C0D65A21E2761C00474B42 /* MenuShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C0D65821E2761C00474B42 /* MenuShowViewController.xib */; };
 		84C0D65D21E2762B00474B42 /* UsersAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C0D65B21E2762B00474B42 /* UsersAddViewController.swift */; };
 		84C0D65E21E2762B00474B42 /* UsersAddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C0D65C21E2762B00474B42 /* UsersAddViewController.xib */; };
-		84C0D66121E2764400474B42 /* UsersDeleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C0D65F21E2764400474B42 /* UsersDeleteViewController.swift */; };
-		84C0D66221E2764400474B42 /* UsersDeleteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C0D66021E2764400474B42 /* UsersDeleteViewController.xib */; };
 		84C0D66521E2769A00474B42 /* UsersShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C0D66321E2769A00474B42 /* UsersShowViewController.swift */; };
 		84C0D66621E2769A00474B42 /* UsersShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C0D66421E2769A00474B42 /* UsersShowViewController.xib */; };
 		D35E8891805ED9082533FFBF /* Pods_iDinner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB382B271C4562D884D4DA2 /* Pods_iDinner.framework */; };
@@ -73,11 +61,17 @@
 /* Begin PBXFileReference section */
 		19FC9805354208EB6BA9E4E4 /* Pods-iDinnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDinnerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iDinnerTests/Pods-iDinnerTests.release.xcconfig"; sourceTree = "<group>"; };
 		546EA43354AB103BC613FEBD /* Pods-iDinnerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDinnerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iDinnerUITests/Pods-iDinnerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5D48D87721E9530300BBE88D /* UsersUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersUpdateViewController.swift; sourceTree = "<group>"; };
+		5D48D87821E9530300BBE88D /* UsersUpdateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsersUpdateViewController.xib; sourceTree = "<group>"; };
 		5DE627D621E904290075120E /* GroupEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupEntity.swift; sourceTree = "<group>"; };
 		5DE627D821E904390075120E /* MenuEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuEntity.swift; sourceTree = "<group>"; };
 		5DE627DA21E9044B0075120E /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
 		5DE627DF21E912590075120E /* ShowListsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowListsTableViewCell.swift; sourceTree = "<group>"; };
 		5DE627E021E912590075120E /* ShowListsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowListsTableViewCell.xib; sourceTree = "<group>"; };
+		5DE627E421E91F0E0075120E /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		5DE627E621E91F410075120E /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		5DE627E821E92FFA0075120E /* MenuRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRepository.swift; sourceTree = "<group>"; };
+		5DE627EA21E930130075120E /* GroupRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupRepository.swift; sourceTree = "<group>"; };
 		7A9FF1DA407CB541072C2A65 /* Pods-iDinner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDinner.release.xcconfig"; path = "Pods/Target Support Files/Pods-iDinner/Pods-iDinner.release.xcconfig"; sourceTree = "<group>"; };
 		7CB54A8299F18415057F3AF5 /* Pods-iDinnerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDinnerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iDinnerUITests/Pods-iDinnerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		841EF64221DBBFDC0072C511 /* iDinner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDinner.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,28 +92,10 @@
 		841EF67C21DBD0EA0072C511 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		841EF68121DBD4290072C511 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		841EF68221DBD4290072C511 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
-		841EF68521DBD9C60072C511 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		841EF68621DBD9C60072C511 /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
 		841EF68C21DBDA5C0072C511 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
 		841EF68D21DBDA5C0072C511 /* UsersViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsersViewController.xib; sourceTree = "<group>"; };
-		841EF69021DBDA700072C511 /* GroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
-		841EF69121DBDA700072C511 /* GroupsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupsViewController.xib; sourceTree = "<group>"; };
-		84C0D64321E275A900474B42 /* GroupsAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsAddViewController.swift; sourceTree = "<group>"; };
-		84C0D64421E275A900474B42 /* GroupsAddViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupsAddViewController.xib; sourceTree = "<group>"; };
-		84C0D64721E275BE00474B42 /* GroupsDeleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsDeleteViewController.swift; sourceTree = "<group>"; };
-		84C0D64821E275BE00474B42 /* GroupsDeleteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupsDeleteViewController.xib; sourceTree = "<group>"; };
-		84C0D64B21E275D400474B42 /* GroupsShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsShowViewController.swift; sourceTree = "<group>"; };
-		84C0D64C21E275D400474B42 /* GroupsShowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupsShowViewController.xib; sourceTree = "<group>"; };
-		84C0D64F21E275FB00474B42 /* MenuAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuAddViewController.swift; sourceTree = "<group>"; };
-		84C0D65021E275FB00474B42 /* MenuAddViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuAddViewController.xib; sourceTree = "<group>"; };
-		84C0D65321E2760D00474B42 /* MenuDeleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDeleteViewController.swift; sourceTree = "<group>"; };
-		84C0D65421E2760D00474B42 /* MenuDeleteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuDeleteViewController.xib; sourceTree = "<group>"; };
-		84C0D65721E2761C00474B42 /* MenuShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuShowViewController.swift; sourceTree = "<group>"; };
-		84C0D65821E2761C00474B42 /* MenuShowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuShowViewController.xib; sourceTree = "<group>"; };
 		84C0D65B21E2762B00474B42 /* UsersAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersAddViewController.swift; sourceTree = "<group>"; };
 		84C0D65C21E2762B00474B42 /* UsersAddViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsersAddViewController.xib; sourceTree = "<group>"; };
-		84C0D65F21E2764400474B42 /* UsersDeleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersDeleteViewController.swift; sourceTree = "<group>"; };
-		84C0D66021E2764400474B42 /* UsersDeleteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsersDeleteViewController.xib; sourceTree = "<group>"; };
 		84C0D66321E2769A00474B42 /* UsersShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersShowViewController.swift; sourceTree = "<group>"; };
 		84C0D66421E2769A00474B42 /* UsersShowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsersShowViewController.xib; sourceTree = "<group>"; };
 		AB6F0866CD4D62224D29253C /* Pods-iDinnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDinnerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iDinnerTests/Pods-iDinnerTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -157,6 +133,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D48D87621E952C400BBE88D /* UsersUpdateViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5D48D87721E9530300BBE88D /* UsersUpdateViewController.swift */,
+				5D48D87821E9530300BBE88D /* UsersUpdateViewController.xib */,
+			);
+			path = UsersUpdateViewController;
+			sourceTree = "<group>";
+		};
 		5DE627D521E903E50075120E /* Entities */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +168,17 @@
 				5DE627E021E912590075120E /* ShowListsTableViewCell.xib */,
 			);
 			path = ShowListsTableViewCell;
+			sourceTree = "<group>";
+		};
+		5DE627E321E91EC00075120E /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				5DE627E421E91F0E0075120E /* Repository.swift */,
+				5DE627E621E91F410075120E /* UserRepository.swift */,
+				5DE627E821E92FFA0075120E /* MenuRepository.swift */,
+				5DE627EA21E930130075120E /* GroupRepository.swift */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 		68277AF31257B8964E7B041B /* Frameworks */ = {
@@ -233,6 +229,7 @@
 		841EF64421DBBFDC0072C511 /* iDinner */ = {
 			isa = PBXGroup;
 			children = (
+				5DE627E321E91EC00075120E /* Repositories */,
 				5DE627D521E903E50075120E /* Entities */,
 				841EF68021DBD2680072C511 /* Cells */,
 				841EF67E21DBD23A0072C511 /* ViewControllers */,
@@ -276,18 +273,10 @@
 		841EF67E21DBD23A0072C511 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				5D48D87621E952C400BBE88D /* UsersUpdateViewController */,
 				84C0D63A21E2752900474B42 /* UsersShowViewController */,
-				84C0D63921E2751A00474B42 /* UsersDeleteViewController */,
 				84C0D63821E2750A00474B42 /* UsersAddViewController */,
-				84C0D63721E274F400474B42 /* MenuShowViewController */,
-				84C0D63621E274E400474B42 /* MenuDeleteViewController */,
-				84C0D63521E274CB00474B42 /* MenuAddViewController */,
-				84C0D63421E274B700474B42 /* GroupsShowViewController */,
-				84C0D63321E274A100474B42 /* GroupsDeleteViewController */,
-				84C0D63221E2749100474B42 /* GroupsAddViewController */,
-				841EF68B21DBD9E80072C511 /* GroupsViewController */,
 				841EF68A21DBD9D50072C511 /* UsersViewController */,
-				841EF68921DBD9CB0072C511 /* MenuViewController */,
 				841EF67F21DBD2500072C511 /* MainViewController */,
 			);
 			path = ViewControllers;
@@ -311,15 +300,6 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		841EF68921DBD9CB0072C511 /* MenuViewController */ = {
-			isa = PBXGroup;
-			children = (
-				841EF68521DBD9C60072C511 /* MenuViewController.swift */,
-				841EF68621DBD9C60072C511 /* MenuViewController.xib */,
-			);
-			path = MenuViewController;
-			sourceTree = "<group>";
-		};
 		841EF68A21DBD9D50072C511 /* UsersViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -329,69 +309,6 @@
 			path = UsersViewController;
 			sourceTree = "<group>";
 		};
-		841EF68B21DBD9E80072C511 /* GroupsViewController */ = {
-			isa = PBXGroup;
-			children = (
-				841EF69021DBDA700072C511 /* GroupsViewController.swift */,
-				841EF69121DBDA700072C511 /* GroupsViewController.xib */,
-			);
-			path = GroupsViewController;
-			sourceTree = "<group>";
-		};
-		84C0D63221E2749100474B42 /* GroupsAddViewController */ = {
-			isa = PBXGroup;
-			children = (
-				84C0D64321E275A900474B42 /* GroupsAddViewController.swift */,
-				84C0D64421E275A900474B42 /* GroupsAddViewController.xib */,
-			);
-			path = GroupsAddViewController;
-			sourceTree = "<group>";
-		};
-		84C0D63321E274A100474B42 /* GroupsDeleteViewController */ = {
-			isa = PBXGroup;
-			children = (
-				84C0D64721E275BE00474B42 /* GroupsDeleteViewController.swift */,
-				84C0D64821E275BE00474B42 /* GroupsDeleteViewController.xib */,
-			);
-			path = GroupsDeleteViewController;
-			sourceTree = "<group>";
-		};
-		84C0D63421E274B700474B42 /* GroupsShowViewController */ = {
-			isa = PBXGroup;
-			children = (
-				84C0D64B21E275D400474B42 /* GroupsShowViewController.swift */,
-				84C0D64C21E275D400474B42 /* GroupsShowViewController.xib */,
-			);
-			path = GroupsShowViewController;
-			sourceTree = "<group>";
-		};
-		84C0D63521E274CB00474B42 /* MenuAddViewController */ = {
-			isa = PBXGroup;
-			children = (
-				84C0D64F21E275FB00474B42 /* MenuAddViewController.swift */,
-				84C0D65021E275FB00474B42 /* MenuAddViewController.xib */,
-			);
-			path = MenuAddViewController;
-			sourceTree = "<group>";
-		};
-		84C0D63621E274E400474B42 /* MenuDeleteViewController */ = {
-			isa = PBXGroup;
-			children = (
-				84C0D65321E2760D00474B42 /* MenuDeleteViewController.swift */,
-				84C0D65421E2760D00474B42 /* MenuDeleteViewController.xib */,
-			);
-			path = MenuDeleteViewController;
-			sourceTree = "<group>";
-		};
-		84C0D63721E274F400474B42 /* MenuShowViewController */ = {
-			isa = PBXGroup;
-			children = (
-				84C0D65721E2761C00474B42 /* MenuShowViewController.swift */,
-				84C0D65821E2761C00474B42 /* MenuShowViewController.xib */,
-			);
-			path = MenuShowViewController;
-			sourceTree = "<group>";
-		};
 		84C0D63821E2750A00474B42 /* UsersAddViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -399,15 +316,6 @@
 				84C0D65C21E2762B00474B42 /* UsersAddViewController.xib */,
 			);
 			path = UsersAddViewController;
-			sourceTree = "<group>";
-		};
-		84C0D63921E2751A00474B42 /* UsersDeleteViewController */ = {
-			isa = PBXGroup;
-			children = (
-				84C0D65F21E2764400474B42 /* UsersDeleteViewController.swift */,
-				84C0D66021E2764400474B42 /* UsersDeleteViewController.xib */,
-			);
-			path = UsersDeleteViewController;
 			sourceTree = "<group>";
 		};
 		84C0D63A21E2752900474B42 /* UsersShowViewController */ = {
@@ -527,19 +435,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84C0D65A21E2761C00474B42 /* MenuShowViewController.xib in Resources */,
 				841EF65021DBBFDE0072C511 /* LaunchScreen.storyboard in Resources */,
 				841EF68F21DBDA5C0072C511 /* UsersViewController.xib in Resources */,
-				84C0D64A21E275BE00474B42 /* GroupsDeleteViewController.xib in Resources */,
 				841EF67621DBC0160072C511 /* MainViewController.xib in Resources */,
-				841EF68821DBD9C60072C511 /* MenuViewController.xib in Resources */,
-				84C0D65221E275FB00474B42 /* MenuAddViewController.xib in Resources */,
-				84C0D64621E275A900474B42 /* GroupsAddViewController.xib in Resources */,
 				5DE627E221E912590075120E /* ShowListsTableViewCell.xib in Resources */,
-				841EF69321DBDA700072C511 /* GroupsViewController.xib in Resources */,
-				84C0D65621E2760D00474B42 /* MenuDeleteViewController.xib in Resources */,
-				84C0D66221E2764400474B42 /* UsersDeleteViewController.xib in Resources */,
-				84C0D64E21E275D400474B42 /* GroupsShowViewController.xib in Resources */,
+				5D48D87A21E9530300BBE88D /* UsersUpdateViewController.xib in Resources */,
 				84C0D65E21E2762B00474B42 /* UsersAddViewController.xib in Resources */,
 				841EF68421DBD4290072C511 /* MainTableViewCell.xib in Resources */,
 				84C0D66621E2769A00474B42 /* UsersShowViewController.xib in Resources */,
@@ -661,28 +561,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DE627EB21E930130075120E /* GroupRepository.swift in Sources */,
 				841EF67921DBD0810072C511 /* Group.swift in Sources */,
+				5D48D87921E9530300BBE88D /* UsersUpdateViewController.swift in Sources */,
 				84C0D65D21E2762B00474B42 /* UsersAddViewController.swift in Sources */,
-				84C0D64D21E275D400474B42 /* GroupsShowViewController.swift in Sources */,
 				841EF64621DBBFDC0072C511 /* AppDelegate.swift in Sources */,
 				5DE627DB21E9044B0075120E /* UserEntity.swift in Sources */,
 				841EF67B21DBD0AD0072C511 /* Menu.swift in Sources */,
-				841EF68721DBD9C60072C511 /* MenuViewController.swift in Sources */,
 				841EF67D21DBD0EA0072C511 /* User.swift in Sources */,
-				84C0D65521E2760D00474B42 /* MenuDeleteViewController.swift in Sources */,
+				5DE627E521E91F0E0075120E /* Repository.swift in Sources */,
 				84C0D66521E2769A00474B42 /* UsersShowViewController.swift in Sources */,
 				841EF68E21DBDA5C0072C511 /* UsersViewController.swift in Sources */,
-				84C0D65921E2761C00474B42 /* MenuShowViewController.swift in Sources */,
-				84C0D66121E2764400474B42 /* UsersDeleteViewController.swift in Sources */,
+				5DE627E921E92FFA0075120E /* MenuRepository.swift in Sources */,
+				5DE627E721E91F410075120E /* UserRepository.swift in Sources */,
 				5DE627D721E904290075120E /* GroupEntity.swift in Sources */,
 				5DE627E121E912590075120E /* ShowListsTableViewCell.swift in Sources */,
-				84C0D64521E275A900474B42 /* GroupsAddViewController.swift in Sources */,
 				841EF68321DBD4290072C511 /* MainTableViewCell.swift in Sources */,
 				841EF67521DBC0160072C511 /* MainViewController.swift in Sources */,
-				84C0D64921E275BE00474B42 /* GroupsDeleteViewController.swift in Sources */,
 				5DE627D921E904390075120E /* MenuEntity.swift in Sources */,
-				841EF69221DBDA700072C511 /* GroupsViewController.swift in Sources */,
-				84C0D65121E275FB00474B42 /* MenuAddViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

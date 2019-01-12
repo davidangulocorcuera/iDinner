@@ -20,22 +20,28 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="ihb-wH-kK8">
-                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="ihb-wH-kK8">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="765"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     <connections>
                         <outlet property="dataSource" destination="-1" id="Z1C-T9-20N"/>
                         <outlet property="delegate" destination="-1" id="T9A-6h-weB"/>
                     </connections>
                 </tableView>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Soi-cA-Ui3">
+                    <rect key="frame" x="35" y="794" width="49" height="31"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </switch>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mostrar solo los que han pagado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yCL-Cv-hVR">
+                    <rect key="frame" x="113" y="794" width="250" height="31"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-            <constraints>
-                <constraint firstItem="ihb-wH-kK8" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="OVx-X2-5cC"/>
-                <constraint firstAttribute="bottom" secondItem="ihb-wH-kK8" secondAttribute="bottom" id="Ulm-qR-XSR"/>
-                <constraint firstItem="ihb-wH-kK8" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="yMM-hj-108"/>
-                <constraint firstItem="ihb-wH-kK8" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="yw5-uY-wAf"/>
-            </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="137.68115942028987" y="153.34821428571428"/>
         </view>
