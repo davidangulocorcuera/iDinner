@@ -10,28 +10,28 @@ import Foundation
 import RealmSwift
 
 class UserEntity: Object {
-    @objc dynamic var id = ""
     @objc dynamic var name = ""
     @objc dynamic var isPay = false
+    @objc dynamic var date = Date()
     
     override static func primaryKey() -> String {
-        return "id"
+        return "name"
     }
     
     convenience init(user: User) {
         self.init()
         
-        self.id = user.id
         self.name = user.name
         self.isPay = user.isPay
+        self.date = user.date
         
     }
     func userModel() -> User {
         let userModel = User()
         
-        userModel.id = self.id
         userModel.name = self.name
         userModel.isPay = self.isPay
+        userModel.date = self.date
         
         return userModel
     }

@@ -12,7 +12,6 @@ protocol AddUserViewControllerDelegate: class {
 }
 class UsersAddViewController: UIViewController , UITextFieldDelegate  {
     @IBOutlet weak var btnAdd: UIButton!
-    @IBOutlet weak var tf_id: UITextField!
     @IBOutlet weak var tf_name: UITextField!
     @IBOutlet weak var sw_isPay: UISwitch!
 
@@ -53,15 +52,12 @@ class UsersAddViewController: UIViewController , UITextFieldDelegate  {
         btnAdd.isHidden = true //hidden okButton
         tf_name.addTarget(self, action: #selector(textFieldsIsNotEmpty),
                                     for: .editingChanged)
-        tf_id.addTarget(self, action: #selector(textFieldsIsNotEmpty),
-                                     for: .editingChanged)
     }
     
     @objc func textFieldsIsNotEmpty(sender: UITextField) {
         sender.text = sender.text?.trimmingCharacters(in: .whitespaces)
         guard
-            let name = tf_name.text, !name.isEmpty,
-            let id = tf_id.text, !id.isEmpty
+            let name = tf_name.text, !name.isEmpty
         else {
             self.btnAdd.isHidden = true
             return
@@ -71,10 +67,9 @@ class UsersAddViewController: UIViewController , UITextFieldDelegate  {
     }
     
     @IBAction func addButtonPressed() {
-        self.user.id = tf_id.text!
-        self.user.name = tf_name.text!
+        self.user.name = tf_name.text
         self.user.isPay = sw_isPay.isOn
-        print (self.user.isPay)
+        self.user.date = Date()
         delegate.addUserViewController(self, didEditUser: user)
     }
 }
