@@ -1,0 +1,6 @@
+framework module Pods_iDinnerTests {
+  umbrella header "Pods-iDinnerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
